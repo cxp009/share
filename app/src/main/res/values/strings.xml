@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">My Application</string>
+    <string name="inh_hint">身高/m</string>
+    <string name="inw_hint">体重/kg</string>
+    <string name="out_hint">BMI计算器</string>
+    <string name="txt01_label" translatable="false">Team A</string>
+    <string name="txt201_label" translatable="false">Team B</string>
+    <string name="btn03_label" translatable="false">+1</string>
+    <string name="btn02_label" translatable="false">+2</string>
+    <string name="btn01_label" translatable="false">+3</string>
+    <string name="btn_reset" translatable="false">reset</string>
+</resources>

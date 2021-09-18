@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="in_hint">请输入摄氏度</string>
+    <string name="out_hint">转换为华氏温度</string>
+    <string name="inh_hint">身高</string>
+    <string name="inw_hint">体重</string>
+</resources>
