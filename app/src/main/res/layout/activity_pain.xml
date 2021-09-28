@@ -9,55 +9,41 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/input"
+            android:id="@+id/dollar_rate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
+            android:inputType="numberDecimal"
             android:gravity="center"
             android:textSize="40dp"
-            android:onClick="click"
-            android:text="请输入要换算的人民币" />
+            android:text="@string/btn_dollar" />
 
-        <TextView
-            android:id="@+id/output"
+        <EditText
+            android:id="@+id/euro_rate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:ems="10"
             android:textSize="40dp"
             android:gravity="center"
-            android:onClick="click"
-            android:text="结果" />
+            android:inputType="numberDecimal"
+            android:text="@string/btn_euro" />
 
-        <Button
-            android:id="@+id/dollar"
+        <EditText
+            android:id="@+id/won_rate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:ems="10"
             android:textSize="40dp"
-            android:onClick="click"
-            android:text="美元" />
-
-        <Button
-            android:id="@+id/euro"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="40dp"
-            android:onClick="click"
-            android:text="欧元" />
-
-        <Button
-            android:id="@+id/dor"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="40dp"
-            android:onClick="click"
-            android:text="韩元" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:gravity="center"
+            android:inputType="numberDecimal"
+            android:text="@string/btn_won" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:textSize="40dp"
-            android:text="config" />
+            android:onClick="save"
+            android:text="@string/btn_save" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

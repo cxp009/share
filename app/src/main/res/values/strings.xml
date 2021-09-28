@@ -9,4 +9,11 @@
     <string name="btn02_label" translatable="false">+2</string>
     <string name="btn01_label" translatable="false">+3</string>
     <string name="btn_reset" translatable="false">reset</string>
+    <string name="btn_config" translatable="false">config</string>
+    <string name="btn_dollar" translatable="false">dollar</string>
+    <string name="btn_euro" translatable="false">euro</string>
+    <string name="btn_won" translatable="false">won</string>
+    <string name="btn_conver" translatable="false">conver</string>
+    <string name="btn_save" translatable="false">save</string>
+    <string name="menu_setting" translatable="false">setting</string>
 </resources>

@@ -13,11 +13,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
             android:gravity="center"
             android:textSize="40dp"
-            android:onClick="click"
-            android:text="请输入要换算的人民币" />
+            android:inputType="numberDecimal"
+            android:text="请输入" />
 
         <TextView
             android:id="@+id/output"
@@ -25,7 +24,7 @@
             android:layout_height="wrap_content"
             android:textSize="40dp"
             android:gravity="center"
-            android:onClick="click"
+
             android:text="结果" />
 
         <Button
@@ -34,7 +33,7 @@
             android:layout_height="wrap_content"
             android:textSize="40dp"
             android:onClick="click"
-            android:text="美元" />
+            android:text="@string/btn_dollar" />
 
         <Button
             android:id="@+id/euro"
@@ -42,15 +41,15 @@
             android:layout_height="wrap_content"
             android:textSize="40dp"
             android:onClick="click"
-            android:text="欧元" />
+            android:text="@string/btn_euro" />
 
         <Button
-            android:id="@+id/dor"
+            android:id="@+id/won"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="40dp"
             android:onClick="click"
-            android:text="韩元" />
+            android:text="@string/btn_won" />
 
         <Button
             android:id="@+id/button4"
@@ -58,6 +57,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textSize="40dp"
-            android:text="config" />
+            android:onClick="openOne"
+            android:text="@string/btn_config" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
